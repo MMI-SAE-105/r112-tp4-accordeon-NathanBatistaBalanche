@@ -1,3 +1,4 @@
-/**
-* Accordeon
-*/
+.accordeon {
+    display: flex; /* Aligne les blocs horizontalement */
+    gap: 10px; /* Légers espaces entre les blocs */
+  }
