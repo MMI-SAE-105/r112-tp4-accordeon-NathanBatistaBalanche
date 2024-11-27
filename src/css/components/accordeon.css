@@ -27,3 +27,8 @@
     white-space: nowrap; /* Empêche le retour à la ligne dans le texte */
     display: none; /* Cache la légende par défaut */
   }
+  
+  details[open] div {
+    display: block; /* Affiche la légende lorsque l'élément est ouvert */
+  }
+  
