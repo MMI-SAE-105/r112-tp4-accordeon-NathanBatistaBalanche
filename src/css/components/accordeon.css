@@ -2,3 +2,9 @@
     display: flex; /* Aligne les blocs horizontalement */
     gap: 10px; /* Légers espaces entre les blocs */
   }
+  
+  details {
+    display: flex; /* Pour permettre l'alignement horizontal de l'image et de la légende */
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    align-items: flex-start; /* Aligne verticalement l'image avec la légende */
+  }
