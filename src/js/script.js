@@ -1,6 +1,6 @@
 // *** ACCORDEON ***
 
-const acco = document.querySelector(".accordeon");
+const accordeon = document.querySelector(".accordeon");
 
 accordeon.querySelectorAll("summary").forEach((summary) => {
     summary.addEventListener("click", (event) => {
