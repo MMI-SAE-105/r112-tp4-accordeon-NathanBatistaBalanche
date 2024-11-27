@@ -21,3 +21,9 @@
     max-width: 100%; /* Ajuste la taille des images */
     height: auto;
   }
+  
+  details div {
+    margin-left: 10px; /* Espace entre l'image et la légende */
+    white-space: nowrap; /* Empêche le retour à la ligne dans le texte */
+    display: none; /* Cache la légende par défaut */
+  }
