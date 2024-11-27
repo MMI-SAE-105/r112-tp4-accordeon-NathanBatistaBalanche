@@ -8,3 +8,10 @@
     flex-wrap: nowrap; /* Empêche le retour à la ligne */
     align-items: flex-start; /* Aligne verticalement l'image avec la légende */
   }
+  
+  summary {
+    list-style: none; /* Supprime le triangle natif */
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
